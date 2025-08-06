@@ -161,7 +161,7 @@ export const App = () => {
                 tag="h3"
                 className={appSt.productTitle}
               >
-                20 000 000 ₽ ежемесячно
+                Разыгрываем 20 млн ₽
               </Typography.TitleResponsive>
 
               <Typography.Text
@@ -170,7 +170,7 @@ export const App = () => {
                 color="secondary"
                 className={appSt.productText}
               >
-                При активной подписке
+                Каждый месяц среди подписчиков Альфа-Смарта
               </Typography.Text>
               <Gap size={16} />
               <div
@@ -183,7 +183,7 @@ export const App = () => {
                   width: "fit-content",
                 }}
               >
-                Подробнее
+                Как участвовать
               </div>
             </div>
             <img
@@ -322,7 +322,7 @@ export const App = () => {
           }}
         >
           <Typography.Text view="primary-medium" weight="bold">
-            Ежемесячные призы
+            Призы каждый месяц
           </Typography.Text>
           <Gap size={16} />
           <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -330,7 +330,7 @@ export const App = () => {
               10 победителей
             </Typography.Text>
             <Typography.Text view="primary-medium" color="primary">
-              по 1 000 000 ₽
+              1 000 000 ₽
             </Typography.Text>
           </div>
           <Gap size={8} />
@@ -341,7 +341,7 @@ export const App = () => {
               1000 победителей
             </Typography.Text>
             <Typography.Text view="primary-medium" color="primary">
-              по 10 000 ₽
+              10 000 ₽
             </Typography.Text>
           </div>
         </div>
@@ -379,7 +379,7 @@ export const App = () => {
                 Подключите подписку
               </Typography.Text>
               <Typography.Text view="primary-small" color="primary">
-                Вы получите доступ к розыгрышу в оплаченном месяце
+                Каждый оплаченный месяц — доступ к розыгрышу
               </Typography.Text>
             </div>
           </div>
@@ -406,10 +406,10 @@ export const App = () => {
                 color="primary"
                 weight="bold"
               >
-                Ждите розыгрыша
+                Дождитесь розыгрыша
               </Typography.Text>
               <Typography.Text view="primary-small" color="primary">
-                Победитель определяется автоматически
+                Автоматически выберем 1010 победителей с Альфа-Смартом
               </Typography.Text>
             </div>
           </div>
@@ -436,10 +436,10 @@ export const App = () => {
                 color="primary"
                 weight="bold"
               >
-                Получайте призы
+                Получите приз
               </Typography.Text>
               <Typography.Text view="primary-small" color="primary">
-                Деньги автоматически зачислятся на ваш счёт
+                Деньги зачислятся на ваш счёт
               </Typography.Text>
             </div>
           </div>
