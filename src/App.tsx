@@ -20,6 +20,7 @@ import { appSt } from "./style.css";
 import { Gap } from "@alfalab/core-components/gap";
 import { useState } from "react";
 import { BottomSheet } from "@alfalab/core-components/bottom-sheet";
+import {ThxLayout} from "./thx/ThxLayout.tsx";
 
 interface Product {
   title: string;
@@ -88,15 +89,6 @@ const products: Array<Product> = [
   },
 ];
 
-const aiLink =
-  "alfabank://configurable_chat?sourceChannelId=AI4_CHAT&navigationTitle=%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%90%D1%81%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82&attachmentsPickerEnabled=false&suggestionsEnabled=false&welcomeMessageEnabled=false&voiceMessageEnabled=false&quotesEnabled=false";
-
-const Redirect = () => {
-  window.location.href = aiLink;
-
-  return null;
-};
-
 export const App = () => {
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
   const [isMoreClicked, setIsMoreClicked] = useState(false);
@@ -111,7 +103,7 @@ export const App = () => {
   };
 
   if (thxShow) {
-    return <Redirect />;
+    return <ThxLayout />;
   }
 
   return (
